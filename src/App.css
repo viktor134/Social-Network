@@ -14,14 +14,8 @@
  
 }
 
-.content {
-  grid-area: c;
-  background-color: rgb(170, 170, 189);
-}
-.sidebar {
-  grid-area: nav;
-}
-nav{
-  grid-area: n;
-  background-color: #fd8b8b;
-}
+
+/*.sidebar {*/
+/*  grid-area: nav;*/
+/*}*/
+
