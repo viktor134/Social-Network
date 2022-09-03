@@ -1,17 +1,23 @@
 import s from './Posts.module.css';
 
-const Posts = () => {
+const Posts = (props) => {
+    
     return (
 
-            <div className={s.posts}>
-                <div className={s.item}>
-               <img src= "https://pbs.twimg.com/media/DSJx9faU8AABmrb.jpg"/>
-                    post 1
+
+
+        <div className={s.item}>
+            <img src="https://pbs.twimg.com/media/DSJx9faU8AABmrb.jpg" />
+           {props.message}
+            <div>
+                <span>{props.like}</span>
             </div>
-            </div>
+        </div>
+
 
     )
 
 }
 
 export default Posts;
+   

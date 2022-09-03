@@ -1,4 +1,5 @@
 import s from './MyPosts.module.css';
+import Posts from "./Post/Posts";
 
 const MyPosts = () => {
     return (
@@ -11,23 +12,17 @@ const MyPosts = () => {
 
             </div>
             <div className={s.posts}>
-                <div className={s.item}>
-               <img src= "https://pbs.twimg.com/media/DSJx9faU8AABmrb.jpg"/>
-                    post 1
             </div>
-            <div className='item'>
-                post 1
-            </div>
-            <div className='item'>
-                post 2
-            </div>
-            <div className='item'>
-                post 3
-            </div>
+            <Posts message = 'Hi ,how are you ?'/>
+            <Posts message = 'My first Post ?'/>
+            <Posts like = '5' />
+           
+
         </div>
-        </div>
-    )
-        ;
+
+
+    );
+
 
 }
 
