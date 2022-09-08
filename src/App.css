@@ -19,3 +19,7 @@
 /*  grid-area: nav;*/
 /*}*/
 
+.app-wrapper-content {
+  grid-area: c;
+  background-color: rgb(15, 15, 106);
+}
