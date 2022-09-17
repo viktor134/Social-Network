@@ -1,4 +1,5 @@
 import  s from './Profile.module.css';
+import React from 'react';
 import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
@@ -18,3 +19,6 @@ const Profile = () => {
 
 
 export default Profile;
+
+
+
