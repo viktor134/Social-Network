@@ -4,22 +4,16 @@
   width:1900px;
   height: 1280px;
 
+  
   grid-template-areas:
   "h h"
   "n c";
 
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
+  
+
 
  
 }
 
-
-/*.sidebar {*/
-/*  grid-area: nav;*/
-/*}*/
-
-.app-wrapper-content {
-  grid-area: c;
-  background-color: rgb(15, 15, 106);
-}

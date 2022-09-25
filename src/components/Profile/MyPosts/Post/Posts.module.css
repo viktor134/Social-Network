@@ -1,11 +1,23 @@
-.item {
+/* .item {
   color:green;
 }
 .item img {
     width:50px;
     border-radius: 30px;
 
+} */
+
+.item img {
+  background-color: #FFC82C;
+  border-radius: 100%;
+  width: 58px;
+  height: 58px
 }
+
+.item{
+  color:green;
+}
+
 
 
 

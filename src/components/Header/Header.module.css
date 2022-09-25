@@ -1,4 +1,4 @@
-.header img{
+/* .header img{
     width: 80px;
     height: 60px;
 }
@@ -6,4 +6,17 @@
     grid-area: h;
     background-color: #0e0707;
 }
+ */
+.header{
+    background-color: #13CE66;
+    grid-area: h;
+    margin-bottom: 13px;
 
+    
+
+    
+}
+.header img{
+    width: 39px;
+    height: 39px;
+}

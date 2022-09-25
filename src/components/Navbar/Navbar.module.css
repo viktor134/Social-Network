@@ -1,4 +1,4 @@
-nav{
+/* nav{
     grid-area: n;
     background-color: #fd8b8b;
 }
@@ -9,4 +9,22 @@ nav{
 
 .item a.activeLink{
     color: gold;
+} */
+.item a{
+color: #FFFFFF;
+font-family: Lato;
+font-size: 34px;
+line-height: 44px;
+width: 227px;
+text-align: left;
+text-decoration: none;
+}
+
+nav{
+  background-color: #13CE66;
+  width: 264px;
+  height: 904px;
+}
+.item a.activeLink{
+    color:gold;
 }
