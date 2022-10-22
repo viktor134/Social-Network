@@ -6,7 +6,7 @@ const Profile = () => {
     return (
     <div>
 
-        <img src ='assets/profile/Raster.jpeg' alt=''/>
+        <img src ='assets/profile/prof.jfif' alt=''/>
 
         <div>
             ava + description
