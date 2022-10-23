@@ -1,19 +1,17 @@
-import  s from './Profile.module.css';
+import s from './Profile.module.css';
 import React from 'react';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = () => {
     return (
-    <div>
-
-        <img src ='assets/profile/prof.jfif' alt=''/>
-
         <div>
-            ava + description
-        </div>
-     <MyPosts />
+            <ProfileInfo />
+            <MyPosts />
 
-    </div>
+        </div>
+
+
     );
 }
 
