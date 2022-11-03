@@ -11,7 +11,7 @@ const Posts = (props) => {
             <img src="https://pbs.twimg.com/media/DSJx9faU8AABmrb.jpg" />
            {props.message}
             <div>
-                <span>{props.like}</span>
+                <span>{props.likesCount}</span>
             </div>
         </div>
 
